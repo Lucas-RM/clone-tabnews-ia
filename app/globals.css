@@ -5,13 +5,33 @@ body {
   align-items: center;
   justify-content: center;
   font-family: sans-serif;
+  background: #fff;
+  color: #24292f;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+main {
+  max-width: 640px;
+  padding: 24px 16px;
   text-align: center;
-  font-size: 4rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0 0 16px;
+}
+
+.frase {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0 0 24px;
+}
+
+.total {
+  font-size: 1.1rem;
   font-weight: bold;
+  margin: 0 0 16px;
+}
+
+a {
+  color: #0969da;
 }
